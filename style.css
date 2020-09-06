@@ -1,0 +1,474 @@
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sacramento', cursive;*/
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+/******************************
+Navigation
+*******************************/
+.columns {
+    width: 100%;
+    display: flex;    
+}
+
+.columns.is-v-centered {
+    align-items: center;
+}
+
+.column.is-h-centered {
+    text-align: center;
+}
+
+.column {
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.column.is-1 {
+    width: 8.333333333333333%;
+}
+
+.column.is-2 {
+    width: 16.66666666666667%;
+}
+
+.column.is-3 {
+    width: 25%;
+}
+
+.column.is-4 {
+    width: 33.33333333333333%;
+}
+
+.column.is-5 {
+    width: 41.66666666666667%;
+}
+
+.column.is-6 {
+    width: 50%;
+}
+
+.column.is-7 {
+    width: 58.33333333333333%;
+}
+
+.column.is-8 {
+    width: 66.66666666666666%;
+}
+
+.column.is-9 {
+    width: 75%;
+}
+
+.column.is-10 {
+    width: 83.33333333333333%;
+}
+
+.column.is-11 {
+    width: 91.66666666666666%;
+}
+
+.column.is-12 {
+    width: 100%;
+}
+
+.column.is-offset-1 {
+    margin-left: 8.333333333333333%;
+}
+
+.column.is-offset-2 {
+    margin-left: 16.66666666666667%;
+}
+
+.column.is-offset-3 {
+    margin-left: 25%;
+}
+
+.column.is-offset-4 {
+    margin-left: 33.33333333333333%;
+}
+
+.column.is-offset-5 {
+    margin-left: 41.66666666666667%;
+}
+
+.column.is-offset-6 {
+    margin-left: 50%;
+}
+
+.column.is-offset-7 {
+    margin-left: 58.33333333333333%;
+}
+
+.column.is-offset-8 {
+    margin-left: 66.66666666666666%;
+}
+
+.column.is-offset-9 {
+    margin-left: 75%;
+}
+
+.column.is-offset-10 {
+    margin-left: 83.33333333333333%;
+}
+
+.column.is-offset-11 {
+    margin-left: 91.66666666666666%;
+}
+
+/******************************
+Navigation
+*******************************/
+
+.navigation {
+    /* position: fixed; */
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.navigation .navigation-list {
+    display: flex;
+    margin: auto;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    align-items: center;
+}
+
+.navigation .list-item {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.navigation .navigation-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #aa6415;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/******************************
+Button
+*******************************/
+
+.button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: #a88d6f;
+    cursor: pointer;
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 40px;
+}
+
+.button.is-gray {
+    background-color: rgb(167, 183, 189);
+}
+
+/******************************
+Sections
+*******************************/
+
+.container {
+    text-align: center;
+} 
+
+.section {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(245, 238, 230); 
+}
+
+.section.has-padding {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: white;
+    max-width: 1680px;
+    margin: auto;
+}
+
+.section .section-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+}
+
+.section .section-subtitle {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.section .section-subtitle.is-white {
+    color: white;
+}
+
+.section.section--header {    
+    min-height: 87.5vh;
+    align-items: center;
+    background-image: url(img/christin-hume-mfB1B1s4sMc-unsplash.jpg);
+    background-size: cover;
+}
+
+.section.section--header .container {
+    align-items: center;
+}
+
+.section.section--header .section-body {
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+}
+
+.section.section--header .section-subtitle {
+    max-width: 750px;
+    margin: auto;
+}
+
+.section.section--services .section-subtitle {
+    max-width: 750px;
+    margin: auto;
+}
+
+.section.section--services img {
+    width: auto;
+    height: 128px;
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+
+.section.section--services p {
+    padding: 16px;
+    font-size: 1.5rem;
+}
+
+.section.section--about .column {
+    padding: 0px;
+    text-align: left;
+}
+
+.section.section--about .content-padding {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.section.section--about .section-img {
+    height: 980px;
+    overflow: hidden;
+}
+
+.section.section--about .section-img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.section.section--post .post-background {
+    background-color: rgb(245, 238, 230);
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section.section--post .section-title {
+    margin-bottom: 32px;
+}
+
+.section.section--post .section-subtitle {
+    text-transform: uppercase;
+    margin: 32px;
+    margin-left: 48px;
+    margin-right: 48px;
+    flex-grow: 2;
+}
+
+.section.section--post .card-catagory {
+    text-transform: uppercase;
+    margin-top: 64px;
+    flex-grow: 1;
+}
+
+.section.section--post .card-catagory p {
+    width: auto;
+    background-image: linear-gradient(to right, #a88d6f, #a88d6f);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 20% 3px;
+}
+
+.section.section--post .card-preview {
+    height: 200px;
+    overflow: hidden;
+}
+
+.section.section--post .card-preview img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.section.section--post .card-link {
+    padding: 8px;
+    background-color: rgb(167, 183, 189);
+}
+
+.section.section--post .card-link a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.section.section--post .post-background.is-lifestyle {
+    background-color: #a88d6f;
+    color: white;
+}
+
+.section.section--post .post-background.is-lifestyle .card-catagory p {
+    background-image: linear-gradient(to right, white, white);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 20% 3px;
+}
+
+.section.section--post .post-background.is-lifestyle .card-link {
+    background-color: black;
+}
+
+.section.section--post .post-background.is-lifestyle-alt {
+    background-color: rgb(167, 183, 189);
+    color: white;
+}
+
+.section.section--post .post-background.is-lifestyle-alt .card-catagory p {
+    background-image: linear-gradient(to right, white, white);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 20% 3px;
+}
+
+.section.section--post .post-background.is-lifestyle-alt .card-link {
+    background-color: #a88d6f;
+}
+
+.section.section--signup .column {
+    padding: 0px;
+    text-align: left;
+}
+
+.section.section--signup .content-padding {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.section.section--signup .section-img {
+    height: 980px;
+    overflow: hidden;
+}
+
+.section.section--signup .section-img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.section.section--signup .content-padding .signup {
+    display: flex;
+    flex-direction: row;
+}
+
+.section.section--signup .content-padding .signup p {
+    background-color: white;
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 40px;
+    margin-right: 8px;
+    flex-grow: 2;
+}
+
+.section.section--footer {
+    background-color: rgb(167, 183, 189);
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section.section--footer .section-title {
+    margin-bottom: 64px;
+}
+
+.section.section--footer .section-body {
+    margin: auto;
+}
+
+.section.section--footer .navigation-list {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.section.section--footer .list-item {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.section.section--footer .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.section.section--footer .footer-icons img {
+    width: 25px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.section.section--footer .copyright {
+    margin-bottom: 24px;
+}
+
+.section.section--footer .copyright a {
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.section.section--footer .legal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section.section--footer .legal a {
+    color: white;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.section.section--footer .legal .vl {
+    border-left: 2px solid white;
+    height: 20px;
+}
